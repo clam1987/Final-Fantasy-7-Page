@@ -1,0 +1,47 @@
+body {
+    background: url("https://media.giphy.com/media/UvQ2W4OYg3EKahV5Xe/giphy.gif") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+#landing-image {
+    background: url("https://gh.cdn.sewest.net/assets/ident/news/heroes-gather-new-final-fantasy-vii-remake-key-art/en_US/FFVIIR_Key_Art_1920x1080-header.jpeg?quality=65") no-repeat center center fixed;
+    background-size: cover;
+    max-width: 1920px;
+    max-height: 1000px;
+    height: 100%;
+    width: 99%;
+    position: absolute;
+}
+
+.text {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 125px;
+    text-align: center;
+    margin-top: 5%;
+    color: rgba(255, 255, 255, .3);
+    line-height: 20px;
+}
+
+.release-date {
+    font-family: "Fjalla One", sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    color: rgba(102, 152, 217, 0.6);
+}
+
+#nav-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 1.25em; /* or 20px */
+    margin-bottom: .625em; /* or 10px */
+}
+
+.nav-links {
+    font-family: "Fjalla One", sans-serif;
+    display: inline;
+    margin-right: 1.25em; /* or 20px */
+    padding: .5em; /* or 8px */
+    color: #dddddd;
+}
